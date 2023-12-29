@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Afacad', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+navbar{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    padding: 1rem;
+}
+navbar h1{
+    font-size: 2.5rem;
+}
+.themes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .75rem;
+}
+.themes label{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#theme{
+    width: 5rem;
+    height: 1.75rem;
+    border: none;
+    border-radius: 5px;
+}
+footer{
+    height: 10vh;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+#p-1,#p-2{
+    display: inline-block;
+    background-color: azure;
+    height: 2rem;
+    width: 2rem;
+    font-size: 1.75rem;
+    display: flex;
+    margin: auto;
+}
+.main{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+}
+.grid{
+    margin: auto;
+    display: grid;
+    grid-template: repeat(3,7.5rem)/repeat(3,7.5rem);
+    border: .5rem solid aquamarine;
+}
+.item{
+    border: .5rem solid aquamarine;
+    display: flex;
+}
+.fa{
+    color: aquamarine;
+    margin: auto;
+}
+.result{
+    height: 5rem;
+    width: 30rem;
+    background-color: aquamarine;
+    position: absolute;
+    top: calc((100vh - 5rem) / 2);
+    font-size: 1.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border-radius: 7.5px;
+    font-weight: 600;
+}
+.hide{
+    display: none;
+}
+button{
+    position: absolute;
+    height: 3rem;
+    width: 15rem;
+    background-color: aquamarine;
+    border: none;
+    top :14vh;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 7.5px;
+}
